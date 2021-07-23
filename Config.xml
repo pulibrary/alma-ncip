@@ -9,7 +9,7 @@
   <Description>This system level addon allows for ILLiad to communicate with Alma via NCIP protocol.</Description>
   <Forms />
   <Settings>
-    <Setting name="NCIP_Responder_URL" value="https://na07.alma.exlibrisgroup.com/view/NCIPServlet" type="string">
+    <Setting name="NCIP_Responder_URL" value="https://princeton.alma.exlibrisgroup.com/view/NCIPServlet" type="string">
       <Description>This setting value is the address for the NCIP Responder URL. For Alma this will always be https://alma.exlibrisgroup.com/view/NCIPServlet unless you are testing on a sandbox version of Alma.</Description>
     </Setting>
 	<Setting name="acceptItem_from_uniqueAgency_value" value="01PRI_INST" type="string">
