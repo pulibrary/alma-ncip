@@ -374,8 +374,8 @@ local m = '';
 function buildCheckInItemBorrowing()
 local tn = "";
 local user = GetFieldValue("Transaction", "Username");
+local t = GetFieldValue("Transaction", "TransactionNumber");
 if Settings.Use_Prefixes then
-	local t = GetFieldValue("Transaction", "TransactionNumber");
 	if GetFieldValue("Transaction", "LibraryUseOnly") and GetFieldValue("Transaction", "RenewalsAllowed") then
 	    tn = Settings.Prefix_for_LibraryUseOnly_and_RenewablesAllowed .. t;
 	end
@@ -410,7 +410,7 @@ local cib = '';
 	cib = cib .. '</UserId>'
 	cib = cib .. '<ItemId>'
 	cib = cib .. '<AgencyId>' .. Settings.acceptItem_from_uniqueAgency_value .. '</AgencyId>'
-	cib = cib .. '<ItemIdentifierValue>' .. tn .. '</ItemIdentifierValue>'
+	cib = cib .. '<ItemIdentifierValue>' .. t .. '</ItemIdentifierValue>'
 	cib = cib .. '</ItemId>'
 	cib = cib .. '<RequestId>'
 	cib = cib .. '<AgencyId>' .. Settings.acceptItem_from_uniqueAgency_value .. '</AgencyId>'
