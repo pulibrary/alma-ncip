@@ -2,7 +2,7 @@
 --
 --Author:  Bill Jones III, SUNY Geneseo, IDS Project, jonesw@geneseo.edu
 --Modified by: Tom McNulty, VCU Libraries, tmcnulty@vcu.edu
---Modeified by: Kevin Reiss, Princeton University Library, kr2@princeton.edu
+--Modified by: Kevin Reiss, Princeton University Library, kr2@princeton.edu
 --System Addon used for ILLiad to communicate with Alma through NCIP protocol
 --
 --Description of Registered Event Handlers for ILLiad
